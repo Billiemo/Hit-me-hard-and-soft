@@ -11,7 +11,7 @@ module.exports = {
         destination: '/news/:slug',
         permanent: true,
       },
-      {
+      { 
         source: '/:path((?!uk/).*)',
         has: [
           {
